@@ -27,6 +27,7 @@
 		C631BF842FFD2B850075BC3F /* SupabaseTCA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SupabaseTCA.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C631BF912FFD2B860075BC3F /* SupabaseTCATests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupabaseTCATests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C631BF9B2FFD2B860075BC3F /* SupabaseTCAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SupabaseTCAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C631BFAE2FFD2C870075BC3F /* SupabaseTCAPackage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = SupabaseTCAPackage; path = ../SupabaseTCAPackage; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -38,11 +39,6 @@
 		C631BF942FFD2B860075BC3F /* SupabaseTCATests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = SupabaseTCATests;
-			sourceTree = "<group>";
-		};
-		C631BF9E2FFD2B860075BC3F /* SupabaseTCAUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SupabaseTCAUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -75,9 +71,9 @@
 		C631BF7B2FFD2B850075BC3F = {
 			isa = PBXGroup;
 			children = (
+				C631BFAE2FFD2C870075BC3F /* SupabaseTCAPackage */,
 				C631BF862FFD2B850075BC3F /* SupabaseTCA */,
 				C631BF942FFD2B860075BC3F /* SupabaseTCATests */,
-				C631BF9E2FFD2B860075BC3F /* SupabaseTCAUITests */,
 				C631BF852FFD2B850075BC3F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -152,9 +148,6 @@
 			);
 			dependencies = (
 				C631BF9D2FFD2B860075BC3F /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C631BF9E2FFD2B860075BC3F /* SupabaseTCAUITests */,
 			);
 			name = SupabaseTCAUITests;
 			packageProductDependencies = (
@@ -403,8 +396,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -413,12 +406,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.modha.SupabaseTCA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -435,8 +432,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -445,12 +442,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.modha.SupabaseTCA;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
