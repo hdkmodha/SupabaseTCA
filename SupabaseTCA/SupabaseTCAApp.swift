@@ -6,12 +6,16 @@
 //
 
 import SwiftUI
+import LoginFeature
+import ComposableArchitecture
 
 @main
 struct SupabaseTCAApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            LoginView(store: .init(initialState: .init(), reducer: {
+                LoginFeature()
+            }))
         }
     }
 }

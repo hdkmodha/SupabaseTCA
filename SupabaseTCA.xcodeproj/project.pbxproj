@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		C61574DF2FFE0FE40096A988 /* LoginFeature in Frameworks */ = {isa = PBXBuildFile; productRef = C61574DE2FFE0FE40096A988 /* LoginFeature */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		C631BF922FFD2B860075BC3F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -36,11 +40,6 @@
 			path = SupabaseTCA;
 			sourceTree = "<group>";
 		};
-		C631BF942FFD2B860075BC3F /* SupabaseTCATests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = SupabaseTCATests;
-			sourceTree = "<group>";
-		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C61574DF2FFE0FE40096A988 /* LoginFeature in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -68,12 +68,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C61574DD2FFE0FE40096A988 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		C631BF7B2FFD2B850075BC3F = {
 			isa = PBXGroup;
 			children = (
 				C631BFAE2FFD2C870075BC3F /* SupabaseTCAPackage */,
 				C631BF862FFD2B850075BC3F /* SupabaseTCA */,
-				C631BF942FFD2B860075BC3F /* SupabaseTCATests */,
+				C61574DD2FFE0FE40096A988 /* Frameworks */,
 				C631BF852FFD2B850075BC3F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -108,6 +115,7 @@
 			);
 			name = SupabaseTCA;
 			packageProductDependencies = (
+				C61574DE2FFE0FE40096A988 /* LoginFeature */,
 			);
 			productName = SupabaseTCA;
 			productReference = C631BF842FFD2B850075BC3F /* SupabaseTCA.app */;
@@ -125,9 +133,6 @@
 			);
 			dependencies = (
 				C631BF932FFD2B860075BC3F /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				C631BF942FFD2B860075BC3F /* SupabaseTCATests */,
 			);
 			name = SupabaseTCATests;
 			packageProductDependencies = (
@@ -579,6 +584,13 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		C61574DE2FFE0FE40096A988 /* LoginFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LoginFeature;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = C631BF7C2FFD2B850075BC3F /* Project object */;
 }
