@@ -1,5 +1,5 @@
 {
-  "originHash" : "142f12a769485f8b9ca73c480b9b49d8ac0523fa527dced47c990a2fe4a36176",
+  "originHash" : "df235ad417fab13d10eb522e6ab3e8595593f7778f03beba6329f824bbb2caee",
   "pins" : [
     {
       "identity" : "assetpluginlibrary",
@@ -33,8 +33,8 @@
       "kind" : "remoteSourceControl",
       "location" : "https://github.com/hdkmodha/SupabaseClientKit.git",
       "state" : {
-        "revision" : "08b44c63c4fbbe9a839d7b9f6dbe5556b12c0252",
-        "version" : "1.2.1"
+        "revision" : "1cd529271fa9e0a9953010e102c1a8b5d316d135",
+        "version" : "1.3.2"
       }
     },
     {
