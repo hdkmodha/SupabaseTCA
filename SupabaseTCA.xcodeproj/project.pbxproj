@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C61574DF2FFE0FE40096A988 /* LoginFeature in Frameworks */ = {isa = PBXBuildFile; productRef = C61574DE2FFE0FE40096A988 /* LoginFeature */; };
+		C696DE60301FCF6600EE3EA7 /* AppFeature in Frameworks */ = {isa = PBXBuildFile; productRef = C696DE5F301FCF6600EE3EA7 /* AppFeature */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C61574DF2FFE0FE40096A988 /* LoginFeature in Frameworks */,
+				C696DE60301FCF6600EE3EA7 /* AppFeature in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -115,7 +115,7 @@
 			);
 			name = SupabaseTCA;
 			packageProductDependencies = (
-				C61574DE2FFE0FE40096A988 /* LoginFeature */,
+				C696DE5F301FCF6600EE3EA7 /* AppFeature */,
 			);
 			productName = SupabaseTCA;
 			productReference = C631BF842FFD2B850075BC3F /* SupabaseTCA.app */;
@@ -588,9 +588,9 @@
 /* End XCConfigurationList section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		C61574DE2FFE0FE40096A988 /* LoginFeature */ = {
+		C696DE5F301FCF6600EE3EA7 /* AppFeature */ = {
 			isa = XCSwiftPackageProductDependency;
-			productName = LoginFeature;
+			productName = AppFeature;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
